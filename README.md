@@ -1,1 +1,1 @@
-this is link visit the link:https://github.com/sravankumarkurumelli/TheBarber.github.io/
+this is link visit the link:https://sravankumarkurumelli.github.io/TheBarber.github.io/
