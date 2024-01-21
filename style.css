@@ -37,7 +37,7 @@ ul li a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 50vh;
 }
 
 .header__content {
@@ -93,13 +93,13 @@ ul li a {
 
 /* Experience Start */
 .experience {
-  height: 90vh;
+  height: 50vh;
   margin-left: 5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 
 .experience-img {
@@ -148,7 +148,7 @@ ul li a {
 
 /* Hero Section Start */
 .hero {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +181,7 @@ ul li a {
 
 /* Services Section Start */
 .services {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .services_g-heading {
@@ -257,7 +257,8 @@ ul li a {
   align-items: center;
   text-align: center;
   color: #fff;
-  height: 50vh;
+  height: auto;
+  padding: 3rem 0;
   margin-top: 10rem;
 }
 
@@ -337,4 +338,43 @@ ul li a {
   .services {
     margin-top: 10rem;
   }
+}
+@media (max-width: 600px) {
+
+  ul{
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+}
+.content__container {
+
+  height: auto;
+}
+.header__content {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.header__heading {
+  font-size: 2rem;
+  
+}
+.hero__content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero__sub-headings {
+  width: 240px;
+}
+.footer__card-title{
+  font-size: 1rem;
+}
+.footer__card-info {
+ font-size: 0.9rem;
+}
 }
